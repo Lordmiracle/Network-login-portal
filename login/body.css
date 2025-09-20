@@ -1,0 +1,124 @@
+body {
+  background-image: url('LAUTECH_LOGO-removebg-preview_0.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  background: #0a2239;
+  color: #fff;
+  padding: 25px 40px; /* bigger padding */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.header-logo {
+  width: 300px; /* bigger logo */
+  margin-right: 20px;
+}
+
+.header-title {
+  font-size: 3em; /* bigger title */
+  font-weight: bold;
+}
+
+/* Main container */
+.main-container {
+  padding: 40px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 120px); /* taller area */
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* bigger space between cards */
+}
+
+/* Generic card style – now full width */
+.card {
+  background: rgba(255,255,255,0.9);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  padding: 40px; /* more padding */
+  width: 100%; /* full width */
+  font-size: 1.2em; /* bigger text */
+}
+
+/* Student info layout */
+.student-info .info-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.info-text p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.passport-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.passport-box input {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+/* Network info */
+.network-info p {
+  margin: 12px 0;
+  font-size: 1.2em;
+}
+
+/* Logout button */
+.logout-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 24px;
+  background: #0a2239;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.logout-btn:hover {
+  background: #3aafa9;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  font-size: 1em;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  text-align: center;
+  padding: 25px 0;
+  background: rgba(10, 34, 57, 0.60);
+}
+
+.footer-box {
+  width: 35px;
+  height: 35px;
+  background-color: #3aafa9;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
